@@ -10,7 +10,7 @@ exclude =
     docs/*,
     .cache/*
 
-fcfn_exclude_functions =
+fcn_exclude_functions =
     re,
 
 enable-extensions =
