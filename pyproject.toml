@@ -6,4 +6,3 @@ output-format = "grouped"
 
 [tool.ruff.format]
 exclude = [".git", ".venv", ".mypy_cache", ".tox", "__pycache__"]
-skip-magic-trailing-comma = true
