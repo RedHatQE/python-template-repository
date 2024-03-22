@@ -41,7 +41,7 @@ repos:
       - id: detect-secrets
 
   - repo: https://github.com/astral-sh/ruff-pre-commit
-    rev: v0.2.1
+    rev: v0.3.4
     hooks:
       - id: ruff
         args: [--fix]
@@ -51,3 +51,8 @@ repos:
     rev: v8.18.2
     hooks:
       - id: gitleaks
+
+  - repo: https://github.com/renovatebot/pre-commit-hooks
+    rev: 37.264.0
+    hooks:
+      - id: renovate-config-validator
